@@ -1,0 +1,19 @@
+id: hdfc_marriott
+label: HDFC Marriott Bonvoy
+bank: HDFC Bank
+tier: Co-brand
+earn_rate: 8 Bonvoy / ₹150 (hotel)
+base_inr: 0.5
+transfers:
+- partner: marriott_luxury
+  ratio: 1.0
+  fee_inr: 0
+  note: Direct co-brand earn
+- partner: marriott_mid
+  ratio: 1.0
+  fee_inr: 0
+  note: Direct earn
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

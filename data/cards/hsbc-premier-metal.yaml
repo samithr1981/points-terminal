@@ -1,0 +1,43 @@
+id: hsbc_premier_metal
+label: HSBC Premier Metal
+bank: HSBC India
+tier: Super Premium
+earn_rate: 3 RP / ₹100 + Taj benefits
+base_inr: 0.5
+transfers:
+- partner: singapore_krisflyer
+  ratio: 0.5
+  fee_inr: 0
+  note: 2:1 India MR
+- partner: flying_blue
+  ratio: 0.5
+  fee_inr: 0
+  note: '2:1'
+- partner: qatar_avios
+  ratio: 0.5
+  fee_inr: 0
+  note: '2:1'
+- partner: marriott_luxury
+  ratio: 1.0
+  fee_inr: 0
+  note: '1:1'
+- partner: taj_innercircle
+  ratio: 1.0
+  fee_inr: 0
+  note: Direct Taj benefits
+- partner: accor_luxury
+  ratio: 1.0
+  fee_inr: 0
+  note: 1:1 (HSBC special)
+- partner: accor_mid
+  ratio: 1.0
+  fee_inr: 0
+  note: '1:1'
+- partner: taj_epicure
+  ratio: 1.0
+  fee_inr: 0
+  note: Complimentary Taj Epicure
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

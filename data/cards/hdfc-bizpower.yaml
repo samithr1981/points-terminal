@@ -1,0 +1,19 @@
+id: hdfc_bizpower
+label: HDFC Biz Power
+bank: HDFC Bank
+tier: Business
+earn_rate: 5 RP / ₹150 (capped)
+base_inr: 0.5
+transfers:
+- partner: singapore_krisflyer
+  ratio: 0.5
+  fee_inr: 0
+  note: 2:1 (capped)
+- partner: hdfc_smartbuy_flights
+  ratio: 0.5
+  fee_inr: 0
+  note: Capped
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

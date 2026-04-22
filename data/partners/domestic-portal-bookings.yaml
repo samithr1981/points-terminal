@@ -1,0 +1,23 @@
+id: domestic_portal_bookings
+name: Vistara/Akasa Portal Bookings
+category: domestic_flight
+program_type: package
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: Any domestic booking
+  miles_needed: 5000
+  cash_value_inr: 5000
+  cabin: Any
+  taxes_inr: 0
+tags:
+- Flexible dates
+deep_link: ''
+last_verified: '2026-04-15'
+sources:
+- name: Bank portals

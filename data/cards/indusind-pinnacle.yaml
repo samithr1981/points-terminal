@@ -1,0 +1,15 @@
+id: indusind_pinnacle
+label: IndusInd Pinnacle
+bank: IndusInd Bank
+tier: Super Premium
+earn_rate: 2.5 RP / ₹100
+base_inr: 0.5
+transfers:
+- partner: eazydiner
+  ratio: 0.5
+  fee_inr: 0
+  note: Via portal
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

@@ -1,0 +1,48 @@
+{
+  "name": "points-terminal",
+  "version": "0.3.0",
+  "private": false,
+  "description": "INR-first reward points optimizer for Indian credit card holders. 39 cards, 14 banks, 30 redemption partners.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:data && vite build",
+    "preview": "vite preview",
+    "build:data": "node scripts/build-data.js",
+    "validate:data": "node scripts/validate-data.js",
+    "lint": "eslint src --ext js,jsx"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.383.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "js-yaml": "^4.1.0",
+    "vite": "^5.4.11"
+  },
+  "keywords": [
+    "credit-cards",
+    "reward-points",
+    "india",
+    "fintech",
+    "travel",
+    "miles",
+    "hdfc",
+    "axis",
+    "amex",
+    "icici",
+    "sbi"
+  ],
+  "author": "Samith R",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samithr1981/points-terminal"
+  },
+  "bugs": {
+    "url": "https://github.com/samithr1981/points-terminal/issues"
+  },
+  "homepage": "https://github.com/samithr1981/points-terminal#readme"
+}

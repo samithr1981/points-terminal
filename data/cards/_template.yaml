@@ -1,0 +1,35 @@
+# Template for adding a new card to Points Terminal
+# Copy this file to data/cards/<bank-slug>-<card-slug>.yaml and fill in
+# All fields with "REQUIRED" must be filled in
+
+id: bank_card_slug         # REQUIRED: unique snake_case id matching filename
+label: Full Card Name      # REQUIRED: displayed in UI dropdown
+bank: Bank Name            # REQUIRED: exact bank name, must match existing banks or add to BANKS_ORDER
+tier: Premium              # REQUIRED: one of Entry / Premium / Super Premium / Invitation / Co-brand / Business
+earn_rate: "X RP per ₹Y"   # REQUIRED: short earn rate description
+base_inr: 0.50             # REQUIRED: default catalog INR rate per point
+
+notes: |
+  Any card-specific quirks, caps, or context.
+  Multi-line is fine.
+
+# Transfer edges — one entry per partner this card can transfer to
+transfers:
+  - partner: partner_slug          # REQUIRED: must match an id in data/partners/
+    ratio: 1.0                     # REQUIRED: partner_miles / source_points
+    min_transfer: 1000             # optional: minimum transferable amount
+    multiple_of: 500               # optional: must be a multiple of
+    annual_cap: null               # optional: annual cap in source points, null = no cap
+    fee_inr: 0                     # optional: fee per transfer in INR (+18% GST applied separately)
+    note: "2:1 with monthly cap"   # REQUIRED: short descriptive note shown in UI
+
+# Data quality metadata — REQUIRED
+last_verified: "YYYY-MM-DD"        # REQUIRED: ISO date of last verification
+sources:                           # REQUIRED: at least 1 source, 2+ for ratio changes
+  - name: Source name
+    url: "https://..."
+
+# Optional change history for this card
+history:
+  - date: "YYYY-MM-DD"
+    change: "What changed"

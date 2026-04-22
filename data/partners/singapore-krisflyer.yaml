@@ -1,0 +1,28 @@
+id: singapore_krisflyer
+name: Singapore KrisFlyer
+category: intl_flight
+program_type: airline
+alliance: Star Alliance
+dynamic_pricing: false
+fuel_surcharge_from_india: low
+valuation:
+  floor: 1.2
+  realistic: 2.0
+  ceiling: 3.3
+sweet_spot:
+  example: DEL/BOM → SIN Business Saver
+  miles_needed: 36500
+  cash_value_inr: 120000
+  cabin: Business
+  taxes_inr: 8500
+tags:
+- Star Alliance
+- Best availability
+- Stopover allowed
+deep_link: https://www.singaporeair.com/en_UK/in/ppsclub-krisflyer/use-miles/flight-redemption/
+last_verified: '2026-04-18'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com
+- name: LiveFromALounge
+  url: https://livefromalounge.com

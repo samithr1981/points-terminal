@@ -1,0 +1,31 @@
+id: hdfc_regalia
+label: HDFC Regalia Gold
+bank: HDFC Bank
+tier: Premium
+earn_rate: 4 RP / ₹150
+base_inr: 0.5
+transfers:
+- partner: singapore_krisflyer
+  ratio: 0.33
+  fee_inr: 0
+  note: '3:1'
+- partner: flying_blue
+  ratio: 0.33
+  fee_inr: 0
+  note: '3:1'
+- partner: hdfc_smartbuy_flights
+  ratio: 0.5
+  fee_inr: 0
+  note: Halved multiplier
+- partner: marriott_luxury
+  ratio: 0.33
+  fee_inr: 0
+  note: '3:1'
+- partner: hdfc_smartbuy_package
+  ratio: 0.5
+  fee_inr: 0
+  note: Halved
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

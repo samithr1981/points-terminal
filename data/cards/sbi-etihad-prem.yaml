@@ -1,0 +1,15 @@
+id: sbi_etihad_prem
+label: Etihad Guest SBI Premier
+bank: SBI Card
+tier: Co-brand
+earn_rate: 6 Etihad Guest / $1 intl
+base_inr: 0.5
+transfers:
+- partner: etihad_guest
+  ratio: 1.0
+  fee_inr: 0
+  note: 1:1 direct earn
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

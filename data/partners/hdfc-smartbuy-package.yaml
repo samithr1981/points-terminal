@@ -1,0 +1,26 @@
+id: hdfc_smartbuy_package
+name: HDFC SmartBuy (Flight+Hotel)
+category: package
+program_type: package
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: Any domestic/intl flight+hotel
+  miles_needed: 10000
+  cash_value_inr: 10000
+  cabin: Any
+  taxes_inr: 0
+tags:
+- Flexible dates
+- Any provider
+- Guaranteed
+deep_link: https://offers.smartbuy.hdfcbank.com/
+last_verified: '2026-04-20'
+sources:
+- name: HDFC Direct
+  url: https://hdfcbank.com

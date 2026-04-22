@@ -1,0 +1,28 @@
+id: british_airways_avios
+name: British Airways Executive Club / Avios
+category: intl_flight
+program_type: airline
+alliance: oneworld
+dynamic_pricing: false
+fuel_surcharge_from_india: high
+valuation:
+  floor: 0.8
+  realistic: 1.5
+  ceiling: 3.5
+sweet_spot:
+  example: BOM → DXB Y on Qatar partner
+  miles_needed: 9000
+  cash_value_inr: 32000
+  cabin: Economy
+  taxes_inr: 4500
+tags:
+- Distance-based
+- High YQ on BA metal
+- Qatar access
+deep_link: https://www.britishairways.com/travel/loyalty-executive-club/public/en_gb
+last_verified: '2026-04-18'
+sources:
+- name: AwardFares
+  url: https://awardfares.com
+- name: PointsMath
+  url: https://pointsmath.com

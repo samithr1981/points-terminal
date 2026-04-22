@@ -1,0 +1,11 @@
+id: au_zenith
+label: AU Zenith
+bank: AU Small Finance
+tier: Premium
+earn_rate: 2 RP / ₹100
+base_inr: 0.3
+transfers: []
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

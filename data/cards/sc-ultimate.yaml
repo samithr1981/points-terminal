@@ -1,0 +1,11 @@
+id: sc_ultimate
+label: StanC Ultimate
+bank: Standard Chartered
+tier: Super Premium
+earn_rate: 5 RP / ₹150
+base_inr: 0.33
+transfers: []
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

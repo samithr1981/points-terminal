@@ -1,0 +1,39 @@
+# Template for adding a new redemption partner to Points Terminal
+# Copy to data/partners/<partner-slug>.yaml and fill in
+
+id: partner_slug           # REQUIRED: unique snake_case matching filename
+name: Partner Full Name    # REQUIRED: displayed in UI
+category: intl_flight      # REQUIRED: intl_flight / domestic_flight / luxury_hotel / mid_hotel / package / experiences / shopping / cashback
+program_type: airline      # REQUIRED: airline / hotel / package / voucher / cashback
+alliance: null             # optional: Star Alliance / oneworld / SkyTeam / null
+dynamic_pricing: false     # REQUIRED: does the program flex award prices with cash fares?
+fuel_surcharge_from_india: low  # REQUIRED: none / low / medium / high
+
+# Three-tier valuation — see docs/METHODOLOGY.md for how these are derived
+valuation:
+  floor: 0.00              # REQUIRED: worst-case INR per partner point
+  realistic: 0.00          # REQUIRED: median observed INR per partner point
+  ceiling: 0.00            # REQUIRED: peak INR per partner point at sweet spot
+
+sweet_spot:
+  example: "Short description of the canonical sweet spot"  # REQUIRED
+  miles_needed: 0          # REQUIRED: partner miles for this sweet spot
+  cash_value_inr: 0        # REQUIRED: typical cash price in INR
+  cabin: "Economy"         # REQUIRED: Economy / Premium Economy / Business / First / Standard / etc.
+  taxes_inr: 0             # REQUIRED: approx taxes and fees on award
+  booking_notes: ""        # optional: quirks, advance-booking windows, phone-only bookings, etc.
+
+tags:                      # REQUIRED: 2-4 short descriptive tags
+  - tag1
+  - tag2
+
+deep_link: "https://..."   # optional: URL to partner's award booking page
+
+last_verified: "YYYY-MM-DD"
+sources:
+  - name: Source
+    url: "https://..."
+
+history:
+  - date: "YYYY-MM-DD"
+    change: "What changed"

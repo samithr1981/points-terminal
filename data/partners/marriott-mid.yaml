@@ -1,0 +1,25 @@
+id: marriott_mid
+name: Marriott Bonvoy (Courtyard/Fairfield)
+category: mid_hotel
+program_type: hotel
+alliance: null
+dynamic_pricing: true
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.3
+  realistic: 0.5
+  ceiling: 0.8
+sweet_spot:
+  example: Le Méridien Kochi / Courtyard
+  miles_needed: 17500
+  cash_value_inr: 8500
+  cabin: Standard
+  taxes_inr: 0
+tags:
+- 5th night free
+- Cat 1-3
+deep_link: https://www.marriott.com/loyalty/redeem/travel.mi
+last_verified: '2026-04-18'
+sources:
+- name: CardInsider
+  url: https://cardinsider.com

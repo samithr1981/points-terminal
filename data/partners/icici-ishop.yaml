@@ -1,0 +1,27 @@
+id: icici_ishop
+name: ICICI iShop
+category: package
+program_type: package
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: Flight + hotel vouchers
+  miles_needed: 10000
+  cash_value_inr: 10000
+  cabin: Any
+  taxes_inr: 0
+tags:
+- Accelerator portal
+- MakeMyTrip backend
+deep_link: https://ishop.icicibank.com/
+last_verified: '2026-04-15'
+sources:
+- name: LiveFromALounge
+  url: https://livefromalounge.com
+- name: ICICI Direct
+  url: https://icicibank.com

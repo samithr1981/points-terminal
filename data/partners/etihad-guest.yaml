@@ -1,0 +1,27 @@
+id: etihad_guest
+name: Etihad Guest
+category: intl_flight
+program_type: airline
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: medium
+valuation:
+  floor: 0.6
+  realistic: 1.4
+  ceiling: 2.2
+sweet_spot:
+  example: BOM → AUH Business Saver
+  miles_needed: 44000
+  cash_value_inr: 95000
+  cabin: Business
+  taxes_inr: 12000
+tags:
+- AA partner access
+- Ending at Amex Jun 2026
+deep_link: https://www.etihad.com/en-in/etihad-guest
+last_verified: '2026-04-17'
+sources:
+- name: One Mile at a Time
+  url: https://onemileatatime.com
+- name: LiveFromALounge
+  url: https://livefromalounge.com

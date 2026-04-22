@@ -1,0 +1,28 @@
+id: turkish_miles_smiles
+name: Turkish Miles&Smiles
+category: intl_flight
+program_type: airline
+alliance: Star Alliance
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.5
+  realistic: 3.5
+  ceiling: 5.0
+sweet_spot:
+  example: India → USA Business (partner)
+  miles_needed: 52500
+  cash_value_inr: 245000
+  cabin: Business
+  taxes_inr: 12000
+tags:
+- Fixed chart
+- Best J to USA
+- Star Alliance
+deep_link: https://www.turkishairlines.com/en-in/miles-and-smiles/
+last_verified: '2026-04-10'
+sources:
+- name: CardExpert
+  url: https://cardexpert.in
+- name: PointsMath
+  url: https://pointsmath.com

@@ -1,0 +1,27 @@
+id: club_itc_green
+name: Club ITC Green Points
+category: mid_hotel
+program_type: hotel
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.8
+  realistic: 1.0
+  ceiling: 1.2
+sweet_spot:
+  example: Welcomhotel / Fortune — 1 night
+  miles_needed: 8000
+  cash_value_inr: 7500
+  cabin: Standard
+  taxes_inr: 0
+tags:
+- Post-demerger program
+- Welcomhotel/Fortune
+deep_link: https://www.itchotels.com/in/en/club-itc
+last_verified: '2026-04-13'
+sources:
+- name: Hotelier India
+  url: https://hotelierindia.com
+- name: ITC Direct
+  url: https://itchotels.com

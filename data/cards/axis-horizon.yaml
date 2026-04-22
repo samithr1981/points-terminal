@@ -1,0 +1,23 @@
+id: axis_horizon
+label: Axis Horizon
+bank: Axis Bank
+tier: Premium
+earn_rate: 2 Miles / ₹200 (travel)
+base_inr: 1.0
+transfers:
+- partner: singapore_krisflyer
+  ratio: 2.0
+  fee_inr: 0
+  note: 1:2 Group B
+- partner: domestic_portal_bookings
+  ratio: 1.0
+  fee_inr: 0
+  note: Travel EDGE
+- partner: axis_travel_edge
+  ratio: 1.0
+  fee_inr: 0
+  note: 1 Mile = ₹1
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

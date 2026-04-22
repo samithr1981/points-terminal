@@ -1,0 +1,15 @@
+id: idfc_private
+label: IDFC First Private
+bank: IDFC FIRST
+tier: Invitation
+earn_rate: 10X online / 6X offline
+base_inr: 0.25
+transfers:
+- partner: mmt_yatra
+  ratio: 0.5
+  fee_inr: 0
+  note: 10X online
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

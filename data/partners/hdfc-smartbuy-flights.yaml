@@ -1,0 +1,28 @@
+id: hdfc_smartbuy_flights
+name: HDFC SmartBuy Flights
+category: domestic_flight
+program_type: package
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: Metro-metro domestic route
+  miles_needed: 5000
+  cash_value_inr: 5000
+  cabin: Any
+  taxes_inr: 0
+tags:
+- Any airline
+- Cleartrip backend
+- Cash-equivalent
+deep_link: https://offers.smartbuy.hdfcbank.com/flights
+last_verified: '2026-04-20'
+sources:
+- name: CardMaven
+  url: https://cardmaven.in
+- name: HDFC Direct
+  url: https://hdfcbank.com

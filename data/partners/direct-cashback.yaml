@@ -1,0 +1,24 @@
+id: direct_cashback
+name: Direct Cashback (SBI/IDFC/Amazon Pay)
+category: cashback
+program_type: cashback
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: Automatic cash credit
+  miles_needed: 10000
+  cash_value_inr: 10000
+  cabin: '-'
+  taxes_inr: 0
+tags:
+- No effort
+- Best floor rate
+deep_link: ''
+last_verified: '2026-04-19'
+sources:
+- name: Bank direct

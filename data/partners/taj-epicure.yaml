@@ -1,0 +1,28 @@
+id: taj_epicure
+name: Taj Epicure / Club Marriott
+category: experiences
+program_type: voucher
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: Dining membership 25% off
+  miles_needed: 0
+  cash_value_inr: 25000
+  cabin: '-'
+  taxes_inr: 0
+tags:
+- Card benefit
+- Dining discounts
+- Free with card
+deep_link: https://www.tajhotels.com/en-in/taj/epicure-programme/
+last_verified: '2026-04-10'
+sources:
+- name: CardInsider
+  url: https://cardinsider.com
+- name: LiveFromALounge
+  url: https://livefromalounge.com

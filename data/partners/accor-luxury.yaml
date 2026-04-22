@@ -1,0 +1,27 @@
+id: accor_luxury
+name: Accor ALL (Sofitel / Raffles)
+category: luxury_hotel
+program_type: hotel
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.8
+  realistic: 1.8
+  ceiling: 1.8
+sweet_spot:
+  example: Sofitel BKC / Raffles Udaipur
+  miles_needed: 20000
+  cash_value_inr: 36000
+  cabin: Any room
+  taxes_inr: 0
+tags:
+- Fixed 2000=€40
+- Raffles/Fairmont
+deep_link: https://all.accor.com/usa/index.en.shtml
+last_verified: '2026-04-11'
+sources:
+- name: AwardWallet
+  url: https://awardwallet.com/blog
+- name: Accor Direct
+  url: https://all.accor.com

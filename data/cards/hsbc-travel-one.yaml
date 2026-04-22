@@ -1,0 +1,11 @@
+id: hsbc_travel_one
+label: HSBC TravelOne
+bank: HSBC India
+tier: Premium
+earn_rate: 4 points / ₹100 travel
+base_inr: 1.0
+transfers: []
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

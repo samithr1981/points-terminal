@@ -1,0 +1,27 @@
+id: icici_emeralde
+label: ICICI Emeralde Private Metal
+bank: ICICI Bank
+tier: Invitation
+earn_rate: 6 RP / ₹200
+base_inr: 1.0
+transfers:
+- partner: air_india_maharaja
+  ratio: 1.0
+  fee_inr: 0
+  note: 1:1 direct
+- partner: domestic_portal_bookings
+  ratio: 1.0
+  fee_inr: 0
+  note: iShop 6X
+- partner: icici_ishop
+  ratio: 1.0
+  fee_inr: 0
+  note: 6X flights / 12X hotels
+- partner: statement_credit
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.25/pt
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

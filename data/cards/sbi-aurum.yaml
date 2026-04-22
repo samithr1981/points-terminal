@@ -1,0 +1,43 @@
+id: sbi_aurum
+label: SBI Aurum
+bank: SBI Card
+tier: Invitation
+earn_rate: 4 RP / ₹100 + 10X online
+base_inr: 0.25
+transfers:
+- partner: singapore_krisflyer
+  ratio: 0.2
+  fee_inr: 0
+  note: 5:1 (Qatar pool)
+- partner: qatar_avios
+  ratio: 0.2
+  fee_inr: 0
+  note: 5:1 direct Qatar
+- partner: air_india_maharaja
+  ratio: 0.2
+  fee_inr: 0
+  note: '5:1'
+- partner: accor_luxury
+  ratio: 1.0
+  fee_inr: 0
+  note: 1:1 direct
+- partner: accor_mid
+  ratio: 1.0
+  fee_inr: 0
+  note: '1:1'
+- partner: bookmyshow
+  ratio: 0.25
+  fee_inr: 0
+  note: Floor rate
+- partner: shopping_vouchers
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.25/pt
+- partner: statement_credit
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.25/pt
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

@@ -1,0 +1,47 @@
+id: axis_magnus
+label: Axis Magnus
+bank: Axis Bank
+tier: Premium
+earn_rate: 12 EDGE / ₹200 (post-2023)
+base_inr: 0.2
+transfers:
+- partner: singapore_krisflyer
+  ratio: 0.4
+  fee_inr: 0
+  note: 5:2 Group A
+- partner: qatar_avios
+  ratio: 0.2
+  fee_inr: 0
+  note: 5:1 BA Avios
+- partner: turkish_miles_smiles
+  ratio: 0.4
+  fee_inr: 0
+  note: 5:2 Group B
+- partner: united_mileageplus
+  ratio: 0.4
+  fee_inr: 0
+  note: '5:2'
+- partner: british_airways_avios
+  ratio: 0.2
+  fee_inr: 0
+  note: 5:1 (post-Apr 2026)
+- partner: air_india_maharaja
+  ratio: 0.4
+  fee_inr: 0
+  note: '5:2'
+- partner: eazydiner
+  ratio: 0.3
+  fee_inr: 0
+  note: Voucher rate
+- partner: shopping_vouchers
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.20/pt
+- partner: statement_credit
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.20/pt
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

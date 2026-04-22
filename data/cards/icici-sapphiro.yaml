@@ -1,0 +1,11 @@
+id: icici_sapphiro
+label: ICICI Sapphiro
+bank: ICICI Bank
+tier: Premium
+earn_rate: 2-6 RP / ₹100
+base_inr: 0.25
+transfers: []
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

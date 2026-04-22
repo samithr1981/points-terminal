@@ -1,0 +1,27 @@
+id: idfc_wealth
+label: IDFC First Wealth
+bank: IDFC FIRST
+tier: Premium
+earn_rate: 10X online / 6X offline
+base_inr: 0.25
+transfers:
+- partner: mmt_yatra
+  ratio: 0.5
+  fee_inr: 0
+  note: 10X online rewards
+- partner: shopping_vouchers
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.25/pt
+- partner: statement_credit
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.25/pt
+- partner: direct_cashback
+  ratio: 1.0
+  fee_inr: 0
+  note: Embedded cashback
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

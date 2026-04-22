@@ -1,0 +1,39 @@
+name: Validate Data
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'package.json'
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Validate YAML schema
+        run: npm run validate:data
+
+      - name: Build data bundle
+        run: npm run build:data
+
+      - name: Check build is in sync
+        run: |
+          if [[ -n $(git status --porcelain src/data.js) ]]; then
+            echo "✗ src/data.js is out of sync with /data YAML."
+            echo "Run 'npm run build:data' locally and commit the result."
+            git diff src/data.js
+            exit 1
+          fi
+          echo "✓ src/data.js is in sync"

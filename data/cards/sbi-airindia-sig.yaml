@@ -1,0 +1,15 @@
+id: sbi_airindia_sig
+label: Air India SBI Signature
+bank: SBI Card
+tier: Co-brand
+earn_rate: 30 Maharaja / ₹100 (AI)
+base_inr: 0.5
+transfers:
+- partner: air_india_maharaja
+  ratio: 1.0
+  fee_inr: 0
+  note: Direct earn
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

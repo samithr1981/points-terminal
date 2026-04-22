@@ -1,0 +1,143 @@
+# Registry of data sources used by Points Terminal
+# This file powers the "Data Sources" panel in the UI
+
+sources:
+  # Indian blogs with RSS feeds
+  - id: pointsmath
+    name: PointsMath
+    type: blog
+    url: "https://pointsmath.com"
+    rss: "https://pointsmath.com/feed/"
+    coverage: Indian bank transfer ratios
+    trust: high
+
+  - id: livefromalounge
+    name: LiveFromALounge
+    type: blog
+    url: "https://livefromalounge.com"
+    rss: "https://livefromalounge.com/feed/"
+    coverage: Devaluation alerts, card reviews
+    trust: high
+
+  - id: cardinsider
+    name: CardInsider
+    type: blog
+    url: "https://cardinsider.com"
+    rss: "https://cardinsider.com/feed/"
+    coverage: Card reviews, reward guides
+    trust: high
+
+  - id: cardexpert
+    name: CardExpert
+    type: blog
+    url: "https://cardexpert.in"
+    rss: "https://cardexpert.in/feed/"
+    coverage: Indian card benefits, co-brand detail
+    trust: high
+
+  - id: magnify
+    name: Magnify.club
+    type: blog
+    url: "https://magnify.club"
+    rss: null
+    coverage: Transfer partners, sweet spots
+    trust: high
+
+  - id: cardmaven
+    name: CardMaven
+    type: blog
+    url: "https://cardmaven.in"
+    rss: null
+    coverage: SmartBuy strategy, detailed card analyses
+    trust: medium
+
+  # Community forums
+  - id: technofino
+    name: TechnoFino Forum
+    type: forum
+    url: "https://technofino.in/community"
+    rss: null
+    coverage: Real-time community reports, devaluation catches
+    trust: high
+
+  - id: tapnow
+    name: TapNow Community
+    type: forum
+    url: "https://community.tapnow.in"
+    rss: null
+    coverage: Transfer bonuses, card tips
+    trust: medium
+
+  # Reddit
+  - id: reddit_ccindia
+    name: r/CreditCardsIndia
+    type: reddit
+    url: "https://reddit.com/r/CreditCardsIndia"
+    rss: "https://reddit.com/r/CreditCardsIndia/.rss"
+    coverage: Community devaluation reports, card advice
+    trust: medium   # high signal but needs verification
+
+  # Aggregators
+  - id: points_dojo
+    name: Points Dojo
+    type: aggregator
+    url: "https://pointsdojo.com"
+    rss: null
+    coverage: Card comparisons, structured rate data
+    trust: medium
+
+  # Real-time channels (ingested via bots)
+  - id: discord_inpoints
+    name: "Discord: IN Points"
+    type: discord
+    url: null
+    coverage: Real-time deal and devaluation alerts
+    trust: medium
+
+  - id: telegram_ccindia
+    name: "Telegram: CCIndia"
+    type: telegram
+    url: null
+    coverage: Community signals, bonus alerts
+    trust: medium
+
+  # Global sources (for US programs that Indians use)
+  - id: awardwallet
+    name: AwardWallet Blog
+    type: blog
+    url: "https://awardwallet.com/blog"
+    rss: "https://awardwallet.com/blog/feed/"
+    coverage: Global program changes
+    trust: high
+
+  - id: frequent_miler
+    name: Frequent Miler
+    type: blog
+    url: "https://frequentmiler.com"
+    rss: "https://frequentmiler.com/feed/"
+    coverage: RRV methodology, global points strategy
+    trust: high
+
+  - id: the_points_guy
+    name: The Points Guy (TPG)
+    type: blog
+    url: "https://thepointsguy.com"
+    rss: "https://thepointsguy.com/feed/"
+    coverage: Global valuations benchmark
+    trust: high
+
+  - id: one_mile_at_a_time
+    name: One Mile at a Time
+    type: blog
+    url: "https://onemileatatime.com"
+    rss: "https://onemileatatime.com/feed/"
+    coverage: Detailed sweet spot analysis
+    trust: high
+
+  # Official program sources
+  - id: bank_direct
+    name: Bank T&C Documents
+    type: official
+    url: null
+    coverage: Ground truth for ratios, caps, fees
+    trust: highest  # always verify against these

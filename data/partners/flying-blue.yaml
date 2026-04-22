@@ -1,0 +1,28 @@
+id: flying_blue
+name: Air France–KLM Flying Blue
+category: intl_flight
+program_type: airline
+alliance: SkyTeam
+dynamic_pricing: true
+fuel_surcharge_from_india: medium
+valuation:
+  floor: 1.0
+  realistic: 1.8
+  ceiling: 2.5
+sweet_spot:
+  example: DEL → CDG/AMS Economy (Promo)
+  miles_needed: 22500
+  cash_value_inr: 55000
+  cabin: Economy
+  taxes_inr: 7500
+tags:
+- Monthly Promo Rewards
+- 25% off saver
+- SkyTeam
+deep_link: https://www.airfrance.co.in/reward-flights
+last_verified: '2026-04-20'
+sources:
+- name: Magnify.club
+  url: https://magnify.club
+- name: AwardWallet
+  url: https://awardwallet.com/blog

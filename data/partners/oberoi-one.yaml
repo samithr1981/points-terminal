@@ -1,0 +1,25 @@
+id: oberoi_one
+name: Oberoi One
+category: luxury_hotel
+program_type: hotel
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: The Oberoi Udaivilas — 1 night
+  miles_needed: 85000
+  cash_value_inr: 85000
+  cabin: Luxury
+  taxes_inr: 0
+tags:
+- Voucher-based
+- Recognition program
+deep_link: https://www.oberoihotels.com/oberoi-one/
+last_verified: '2026-04-10'
+sources:
+- name: MilesCop
+  url: https://milescop.com

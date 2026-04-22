@@ -1,0 +1,19 @@
+id: hsbc_premier
+label: HSBC Premier
+bank: HSBC India
+tier: Premium
+earn_rate: 3 RP / ₹100
+base_inr: 0.25
+transfers:
+- partner: shopping_vouchers
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.25/pt
+- partner: statement_credit
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.25/pt
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

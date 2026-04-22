@@ -1,0 +1,19 @@
+id: icici_emeralde_std
+label: ICICI Emeralde
+bank: ICICI Bank
+tier: Super Premium
+earn_rate: 4 RP / ₹100
+base_inr: 0.6
+transfers:
+- partner: air_india_maharaja
+  ratio: 0.67
+  fee_inr: 0
+  note: '3:2'
+- partner: icici_ishop
+  ratio: 0.67
+  fee_inr: 0
+  note: '3:2'
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

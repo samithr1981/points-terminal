@@ -1,0 +1,25 @@
+id: axis_travel_edge
+name: Axis Travel EDGE
+category: package
+program_type: package
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: Flight + hotel bundle
+  miles_needed: 10000
+  cash_value_inr: 10000
+  cabin: Any
+  taxes_inr: 0
+tags:
+- Cash-equivalent
+- 20X Travel EDGE
+deep_link: https://www.axisbank.com/retail/cards/credit-card/travel-edge
+last_verified: '2026-04-17'
+sources:
+- name: Axis Direct
+  url: https://axisbank.com

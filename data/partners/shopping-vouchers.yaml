@@ -1,0 +1,24 @@
+id: shopping_vouchers
+name: Amazon / Flipkart Vouchers
+category: shopping
+program_type: voucher
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.2
+  realistic: 0.5
+  ceiling: 0.8
+sweet_spot:
+  example: Amazon/Flipkart/Myntra gift card
+  miles_needed: 10000
+  cash_value_inr: 5000
+  cabin: '-'
+  taxes_inr: 0
+tags:
+- Easy liquidation
+- Below ceiling
+deep_link: ''
+last_verified: '2026-04-21'
+sources:
+- name: Bank portals

@@ -1,0 +1,27 @@
+id: air_india_maharaja
+name: Air India Maharaja Club
+category: domestic_flight
+program_type: airline
+alliance: Star Alliance
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.8
+  realistic: 1.2
+  ceiling: 2.0
+sweet_spot:
+  example: DEL → BOM Economy (new chart)
+  miles_needed: 7500
+  cash_value_inr: 8500
+  cabin: Economy
+  taxes_inr: 1500
+tags:
+- No fuel surcharge
+- Post-Apr 2026 cheaper
+deep_link: https://www.airindia.com/in/en/maharaja-club.html
+last_verified: '2026-04-21'
+sources:
+- name: Magnify.club
+  url: https://magnify.club
+- name: Aviation A2Z
+  url: https://aviationa2z.com

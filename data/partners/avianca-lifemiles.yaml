@@ -1,0 +1,28 @@
+id: avianca_lifemiles
+name: Avianca LifeMiles
+category: intl_flight
+program_type: airline
+alliance: Star Alliance
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.8
+  realistic: 1.5
+  ceiling: 2.5
+sweet_spot:
+  example: DEL → Europe Economy (Star)
+  miles_needed: 30000
+  cash_value_inr: 55000
+  cabin: Economy
+  taxes_inr: 3500
+tags:
+- No fuel surcharge
+- HDFC-only
+- Regular sales
+deep_link: https://www.lifemiles.com/
+last_verified: '2026-04-12'
+sources:
+- name: LoyaltyLobby
+  url: https://loyaltylobby.com
+- name: PointsMath
+  url: https://pointsmath.com

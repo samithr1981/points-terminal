@@ -1,0 +1,15 @@
+id: kotak_white_res
+label: Kotak White Reserve
+bank: Kotak Mahindra
+tier: Premium
+earn_rate: 8 Air Miles / ₹100
+base_inr: 0.75
+transfers:
+- partner: singapore_krisflyer
+  ratio: 0.5
+  fee_inr: 0
+  note: 2:1 Air Miles
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

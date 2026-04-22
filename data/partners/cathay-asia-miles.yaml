@@ -1,0 +1,27 @@
+id: cathay_asia_miles
+name: Cathay Asia Miles
+category: intl_flight
+program_type: airline
+alliance: oneworld
+dynamic_pricing: false
+fuel_surcharge_from_india: low
+valuation:
+  floor: 1.0
+  realistic: 1.8
+  ceiling: 2.8
+sweet_spot:
+  example: BOM → HKG Business
+  miles_needed: 45000
+  cash_value_inr: 110000
+  cabin: Business
+  taxes_inr: 8500
+tags:
+- oneworld
+- Good J availability
+deep_link: https://www.cathaypacific.com/cx/en_IN/asia-miles.html
+last_verified: '2026-04-16'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com
+- name: AwardFares
+  url: https://awardfares.com

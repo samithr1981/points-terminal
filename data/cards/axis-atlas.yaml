@@ -1,0 +1,39 @@
+id: axis_atlas
+label: Axis Atlas
+bank: Axis Bank
+tier: Super Premium
+earn_rate: 2 EDGE Miles / ₹100
+base_inr: 1.0
+transfers:
+- partner: singapore_krisflyer
+  ratio: 2.0
+  fee_inr: 0
+  note: 1:2 Group B
+- partner: flying_blue
+  ratio: 2.0
+  fee_inr: 0
+  note: 1:2 Group B
+- partner: air_india_maharaja
+  ratio: 2.0
+  fee_inr: 0
+  note: 1:2 Group B
+- partner: indigo_bluchip
+  ratio: 1.0
+  fee_inr: 0
+  note: via Travel EDGE
+- partner: domestic_portal_bookings
+  ratio: 1.0
+  fee_inr: 0
+  note: Travel EDGE
+- partner: ihg_one
+  ratio: 2.0
+  fee_inr: 0
+  note: 1:2 Group B
+- partner: axis_travel_edge
+  ratio: 1.0
+  fee_inr: 0
+  note: 1 Mile = ₹1
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

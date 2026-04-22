@@ -1,0 +1,25 @@
+id: indigo_bluchip
+name: IndiGo BluChip
+category: domestic_flight
+program_type: airline
+alliance: null
+dynamic_pricing: true
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.9
+  realistic: 1.0
+  ceiling: 1.2
+sweet_spot:
+  example: Metro-metro economy Saver
+  miles_needed: 4000
+  cash_value_inr: 4500
+  cabin: Economy
+  taxes_inr: 0
+tags:
+- Largest domestic network
+- Dynamic
+deep_link: https://www.goindigo.in/bluchip.html
+last_verified: '2026-04-16'
+sources:
+- name: CardInsider
+  url: https://cardinsider.com

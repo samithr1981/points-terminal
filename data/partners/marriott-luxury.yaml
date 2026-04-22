@@ -1,0 +1,28 @@
+id: marriott_luxury
+name: Marriott Bonvoy (Luxury Collection)
+category: luxury_hotel
+program_type: hotel
+alliance: null
+dynamic_pricing: true
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.35
+  realistic: 0.55
+  ceiling: 1.0
+sweet_spot:
+  example: ITC Grand Chola / Maurya — 1 night
+  miles_needed: 50000
+  cash_value_inr: 28000
+  cabin: Standard room
+  taxes_inr: 0
+tags:
+- 5th night free
+- ITC access
+- Airline hub
+deep_link: https://www.marriott.com/loyalty/redeem/travel.mi
+last_verified: '2026-04-20'
+sources:
+- name: LiveFromALounge
+  url: https://livefromalounge.com
+- name: MilesCop
+  url: https://milescop.com

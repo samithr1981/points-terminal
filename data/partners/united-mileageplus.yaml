@@ -1,0 +1,28 @@
+id: united_mileageplus
+name: United MileagePlus
+category: intl_flight
+program_type: airline
+alliance: Star Alliance
+dynamic_pricing: true
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.8
+  realistic: 1.5
+  ceiling: 2.3
+sweet_spot:
+  example: DEL → USA Business (Star partner)
+  miles_needed: 130000
+  cash_value_inr: 310000
+  cabin: Business
+  taxes_inr: 4500
+tags:
+- No fuel surcharge
+- Good search
+- AI-blocking
+deep_link: https://www.united.com/en/in/book-flight/award-travel
+last_verified: '2026-04-19'
+sources:
+- name: NerdWallet
+  url: https://nerdwallet.com
+- name: TPG
+  url: https://thepointsguy.com

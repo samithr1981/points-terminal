@@ -1,0 +1,28 @@
+id: emirates_skywards
+name: Emirates Skywards
+category: intl_flight
+program_type: airline
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: high
+valuation:
+  floor: 0.4
+  realistic: 0.8
+  ceiling: 1.5
+sweet_spot:
+  example: BOM → DXB Economy Saver
+  miles_needed: 22500
+  cash_value_inr: 24000
+  cabin: Economy
+  taxes_inr: 21000
+tags:
+- High YQ
+- Often cheaper to buy cash
+- Co-brand earn
+deep_link: https://www.emirates.com/english/skywards/
+last_verified: '2026-04-14'
+sources:
+- name: AwardWallet
+  url: https://awardwallet.com/blog
+- name: LiveFromALounge
+  url: https://livefromalounge.com

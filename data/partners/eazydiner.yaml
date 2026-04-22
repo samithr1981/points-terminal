@@ -1,0 +1,25 @@
+id: eazydiner
+name: EazyDiner Fine Dining
+category: experiences
+program_type: voucher
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.3
+  realistic: 0.8
+  ceiling: 1.0
+sweet_spot:
+  example: Fine-dining ₹5000 voucher
+  miles_needed: 5000
+  cash_value_inr: 5000
+  cabin: '-'
+  taxes_inr: 0
+tags:
+- 5-star dining
+- Variable
+deep_link: https://www.eazydiner.com/
+last_verified: '2026-04-13'
+sources:
+- name: CardInsider
+  url: https://cardinsider.com

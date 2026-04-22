@@ -1,0 +1,27 @@
+id: hilton_honors
+name: Hilton Honors
+category: mid_hotel
+program_type: hotel
+alliance: null
+dynamic_pricing: true
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.2
+  realistic: 0.3
+  ceiling: 0.45
+sweet_spot:
+  example: Hilton Goa Resort — 1 night
+  miles_needed: 60000
+  cash_value_inr: 16000
+  cabin: Standard
+  taxes_inr: 0
+tags:
+- 5th night free
+- Dynamic
+deep_link: https://www.hilton.com/
+last_verified: '2026-04-09'
+sources:
+- name: WalletHub
+  url: https://wallethub.com
+- name: Amex India
+  url: https://americanexpress.com/in

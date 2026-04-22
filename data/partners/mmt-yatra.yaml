@@ -1,0 +1,25 @@
+id: mmt_yatra
+name: MakeMyTrip / Yatra (via IDFC/AU)
+category: package
+program_type: package
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 0.4
+  realistic: 0.5
+  ceiling: 0.6
+sweet_spot:
+  example: Flight + hotel package bookings
+  miles_needed: 10000
+  cash_value_inr: 5000
+  cabin: Any
+  taxes_inr: 0
+tags:
+- IDFC/AU vouchers
+- OTA redemption
+deep_link: https://www.makemytrip.com/
+last_verified: '2026-04-14'
+sources:
+- name: CardInsider
+  url: https://cardinsider.com

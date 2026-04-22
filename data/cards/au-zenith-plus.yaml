@@ -1,0 +1,23 @@
+id: au_zenith_plus
+label: AU Zenith+
+bank: AU Small Finance
+tier: Super Premium
+earn_rate: 2 RP / ₹100 + 2X travel
+base_inr: 0.4
+transfers:
+- partner: air_india_maharaja
+  ratio: 0.67
+  fee_inr: 0
+  note: 3:2 Maharaja
+- partner: mmt_yatra
+  ratio: 0.4
+  fee_inr: 0
+  note: Voucher rate
+- partner: shopping_vouchers
+  ratio: 1.0
+  fee_inr: 0
+  note: ₹0.40/pt
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

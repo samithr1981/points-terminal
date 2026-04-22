@@ -1,0 +1,27 @@
+id: taj_innercircle
+name: Taj InnerCircle / NeuPass
+category: luxury_hotel
+program_type: hotel
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.0
+  realistic: 1.0
+  ceiling: 1.0
+sweet_spot:
+  example: Rambagh Palace / Taj Lake Palace
+  miles_needed: 60000
+  cash_value_inr: 60000
+  cabin: Heritage room
+  taxes_inr: 0
+tags:
+- Fixed ₹1/coin
+- Taj/Vivanta/Ginger
+deep_link: https://www.tajhotels.com/en-in/neupass
+last_verified: '2026-04-19'
+sources:
+- name: Taj Direct
+  url: https://tajhotels.com
+- name: CardInsider
+  url: https://cardinsider.com

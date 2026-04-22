@@ -1,0 +1,27 @@
+id: virgin_atlantic
+name: Virgin Atlantic Flying Club
+category: intl_flight
+program_type: airline
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: medium
+valuation:
+  floor: 1.2
+  realistic: 2.5
+  ceiling: 3.5
+sweet_spot:
+  example: India → Tokyo on ANA Business RT
+  miles_needed: 95000
+  cash_value_inr: 285000
+  cabin: Business
+  taxes_inr: 18000
+tags:
+- ANA access
+- Phone booking
+deep_link: https://www.virginatlantic.com/gb/en/flying-club.html
+last_verified: '2026-04-08'
+sources:
+- name: One Mile at a Time
+  url: https://onemileatatime.com
+- name: Frequent Miler
+  url: https://frequentmiler.com

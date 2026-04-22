@@ -1,0 +1,19 @@
+id: tata_neu_plus
+label: Tata Neu Plus HDFC
+bank: HDFC / Tata
+tier: Co-brand
+earn_rate: 2% Tata / 1% else
+base_inr: 1.0
+transfers:
+- partner: taj_innercircle
+  ratio: 1.0
+  fee_inr: 0
+  note: 1 NeuCoin = ₹1
+- partner: croma_reliance
+  ratio: 1.0
+  fee_inr: 0
+  note: 2% base
+last_verified: '2026-04-21'
+sources:
+- name: PointsMath
+  url: https://pointsmath.com

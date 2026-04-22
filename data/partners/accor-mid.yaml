@@ -1,0 +1,27 @@
+id: accor_mid
+name: Accor ALL (Novotel / ibis)
+category: mid_hotel
+program_type: hotel
+alliance: null
+dynamic_pricing: false
+fuel_surcharge_from_india: none
+valuation:
+  floor: 1.8
+  realistic: 1.8
+  ceiling: 1.8
+sweet_spot:
+  example: Novotel Mumbai/Goa — 1 night
+  miles_needed: 8000
+  cash_value_inr: 14400
+  cabin: Standard
+  taxes_inr: 0
+tags:
+- Fixed rate
+- Wide India network
+deep_link: https://all.accor.com/usa/index.en.shtml
+last_verified: '2026-04-11'
+sources:
+- name: Accor Direct
+  url: https://all.accor.com
+- name: PointsMath
+  url: https://pointsmath.com
