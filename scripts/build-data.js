@@ -107,8 +107,7 @@ export const DATA_SOURCES = ${JSON.stringify(sources, null, 2)};
 export const META = {
   cardCount: ${cards.length},
   partnerCount: ${partners.length},
-  sourceCount: ${sources.length},
-  builtAt: "${new Date().toISOString()}"
+  sourceCount: ${sources.length}
 };
 `;
 
