@@ -4,7 +4,7 @@
 
 Most Indians redeem points at the bank catalog rate (₹0.25–₹1.00/point). The transfer-partner ceiling is 3–5× higher. Points Terminal closes that information gap.
 
-![Points Terminal Screenshot](docs/screenshot.png)
+https://samithr1981.github.io/points-terminal/
 
 ## What it does
 
