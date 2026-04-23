@@ -2431,6 +2431,5 @@ export const DATA_SOURCES = [
 export const META = {
   cardCount: 49,
   partnerCount: 38,
-  sourceCount: 17,
-  builtAt: "2026-04-22T12:11:43.733Z"
+  sourceCount: 17
 };
